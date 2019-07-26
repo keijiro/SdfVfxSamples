@@ -208,13 +208,14 @@ VisualEffect:
       m_Array: []
     m_NamedObject:
       m_Array:
-      - m_Value: {fileID: 6775435000000457311, guid: a3c618d3fc60b4730aeb80b167767f6c,
+      - m_Value: {fileID: 6775435000000457311, guid: 394b02132570038508c91062bc2f1ced,
           type: 3}
         m_Name: Signed Distance Field
-        m_Overridden: 0
-      - m_Value: {fileID: 0}
+        m_Overridden: 1
+      - m_Value: {fileID: 6775435000000457311, guid: b64266cb924885dab878172f91a98ecb,
+          type: 3}
         m_Name: Distance Gradient
-        m_Overridden: 0
+        m_Overridden: 1
     m_Bool:
       m_Array: []
 --- !u!4 &600624369
@@ -323,14 +324,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077522350}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.04, z: 0}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 600624369}
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &2041281621
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,7 +401,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2041281621}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -3.6}
+  m_LocalPosition: {x: 0, y: 0, z: -5.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
