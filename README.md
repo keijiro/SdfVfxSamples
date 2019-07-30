@@ -5,10 +5,11 @@ This repository contains examples that show how to use vector fields with
 Unity Visual Effect Graph.
 
 ![screenshot](https://i.imgur.com/SrcqEPzm.jpg)
-![screenshot](https://i.imgur.com/elRJOr8m.jpg)
+![gif](https://i.imgur.com/lCocilb.gif)
 
 ![gif](https://i.imgur.com/iUGn7Fw.gif)
 ![gif](https://i.imgur.com/jPluUSJ.gif)
+
 
 System Requirements
 -------------------
