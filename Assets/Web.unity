@@ -158,6 +158,7 @@ VFXRenderer:
   m_Materials:
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -210,11 +211,11 @@ VisualEffect:
       m_Array: []
     m_NamedObject:
       m_Array:
-      - m_Value: {fileID: 6775435000000457311, guid: a3c618d3fc60b4730aeb80b167767f6c,
+      - m_Value: {fileID: 6775435000000457311, guid: 394b02132570038508c91062bc2f1ced,
           type: 3}
         m_Name: Signed Distance Field
         m_Overridden: 1
-      - m_Value: {fileID: 6775435000000457311, guid: 776229e658c80b88bb8676b1857c7621,
+      - m_Value: {fileID: 6775435000000457311, guid: b64266cb924885dab878172f91a98ecb,
           type: 3}
         m_Name: Distance Gradient
         m_Overridden: 1
@@ -227,13 +228,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 600624366}
-  m_LocalRotation: {x: 0.11177162, y: -0.1792645, z: 0.020503845, w: 0.97721595}
+  m_LocalRotation: {x: 0.04431011, y: 0.9148806, z: -0.104641855, w: 0.387402}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 13.05, y: -20.79, z: 0}
+  m_LocalEulerAnglesHint: {x: 13.05, y: 134.1, z: 0}
 --- !u!95 &600624370
 Animator:
   serializedVersion: 3
