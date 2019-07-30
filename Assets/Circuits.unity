@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 600624368}
   - component: {fileID: 600624367}
   m_Layer: 0
-  m_Name: Web
+  m_Name: Circuits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
