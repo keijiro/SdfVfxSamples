@@ -179,7 +179,7 @@ MonoBehaviour:
     x: 499
     y: -89
     width: 2294
-    height: 2532
+    height: 2533
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -374,7 +374,7 @@ VisualEffectResource:
       tmp_be = tmp_bc - (float)0.5;\n            float tmp_bf = ceil(tmp_be);\n            float
       tmp_bg = saturate(tmp_bf);\n            float tmp_bi = tmp_bg * (float)0.4;\n
       \           float tmp_bj = tmp_bi + uniform_e;\n            float tmp_bk = frac(tmp_bj);\n
-      \           float3 tmp_bn = float3(tmp_bk, (float)0.8, (float)1);\n            float3
+      \           float3 tmp_bn = float3(tmp_bk, (float)0.9, (float)1);\n            float3
       tmp_bo = HSVtoRGB(tmp_bn);\n            float tmp_bp = tmp_bo[0];\n            float
       tmp_bq = tmp_bo[1];\n            float tmp_br = tmp_bo[2];\n            float3
       tmp_bs = float3(tmp_bp, tmp_bq, tmp_br);\n            SetAttribute_FDD06EC7(
@@ -1337,7 +1337,7 @@ VisualEffectResource:
         - m_ExpressionIndex: 24
           m_Value: 1
         - m_ExpressionIndex: 25
-          m_Value: 0.8
+          m_Value: 0.9
         - m_ExpressionIndex: 26
           m_Value: 0.91
         - m_ExpressionIndex: 27
@@ -1454,7 +1454,8 @@ VisualEffectResource:
           m_Value: {fileID: 6775435000000457311, guid: 776229e658c80b88bb8676b1857c7621,
             type: 3}
         - m_ExpressionIndex: 34
-          m_Value: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+          m_Value: {fileID: 289301614986012343, guid: 83ae38cf3fdec08458a14a32f4d5cb71,
+            type: 3}
       m_Bool:
         m_Array: []
     m_ExposedExpressions:
@@ -10076,7 +10077,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Mesh, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":10207,"guid":"0000000000000000e000000000000000","type":0}}'
+      m_SerializableObject: '{"obj":{"fileID":289301614986012343,"guid":"83ae38cf3fdec08458a14a32f4d5cb71","type":3}}'
     m_Space: 2147483647
   m_Property:
     name: mesh
@@ -12322,7 +12323,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":1.0,"y":0.800000011920929,"z":1.0}'
+      m_SerializableObject: '{"x":1.0,"y":0.8999999761581421,"z":1.0}'
     m_Space: 2147483647
   m_Property:
     name: hsv
