@@ -1,9 +1,19 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
+      ]
+    }
+  ],
   "dependencies": {
     "com.unity.package-manager-ui": "2.2.0",
-    "com.unity.render-pipelines.high-definition": "6.9.0-preview",
+    "com.unity.render-pipelines.high-definition": "6.9.1-preview",
     "com.unity.timeline": "1.1.0",
-    "jp.keijiro.klak.motion": "https://github.com/keijiro/ProceduralMotion.git#upm",
+    "jp.keijiro.klak.motion": "1.0.0",
+    "jp.keijiro.recorder.ffmpeg": "0.0.2",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.director": "1.0.0",
     "com.unity.modules.imageconversion": "1.0.0",
@@ -13,11 +23,5 @@
     "com.unity.modules.physics2d": "1.0.0",
     "com.unity.modules.ui": "1.0.0",
     "com.unity.modules.vr": "1.0.0"
-  },
-  "lock": {
-    "jp.keijiro.klak.motion": {
-      "hash": "d0e16b9ed633cb53c6865e40fbe270172b471b74",
-      "revision": "upm"
-    }
   }
 }
