@@ -14,8 +14,8 @@ Unity Visual Effect Graph.
 System Requirements
 -------------------
 
-- Unity 2019.2
-- High Definition Render Pipeline 6.9
+- Unity 2019.3
+- High Definition Render Pipeline 7.1
 
 Frequently Asked Questions
 --------------------------
