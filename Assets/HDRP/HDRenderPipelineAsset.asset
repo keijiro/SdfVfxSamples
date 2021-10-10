@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cf1dab834d4ec34195b920ea7bbf9ec, type: 3}
-  m_Name: HDRP
+  m_Name: HDRenderPipelineAsset
   m_EditorClassIdentifier: 
   m_RenderPipelineSettings:
     supportShadowMask: 1
@@ -40,7 +40,7 @@ MonoBehaviour:
         m_Id: With3Levels
     supportDecals: 1
     supportDecalLayers: 0
-    supportSurfaceGradient: 0
+    supportSurfaceGradient: 1
     decalNormalBufferHP: 0
     msaaSampleCount: 1
     supportMotionVectors: 1
@@ -53,11 +53,11 @@ MonoBehaviour:
     supportRayTracing: 0
     supportedRayTracingMode: 3
     lightLoopSettings:
-      cookieAtlasSize: 512
+      cookieAtlasSize: 2048
       cookieFormat: 74
       cookieAtlasLastValidMip: 0
-      cookieTexArraySize: 16
-      planarReflectionAtlasSize: 4096
+      cookieTexArraySize: 1
+      planarReflectionAtlasSize: 1024
       reflectionProbeCacheSize: 64
       reflectionCubemapSize: 256
       reflectionCacheCompressed: 0
@@ -79,7 +79,7 @@ MonoBehaviour:
     hdShadowInitParams:
       maxShadowRequests: 128
       directionalShadowsDepthBits: 32
-      shadowFilteringQuality: 0
+      shadowFilteringQuality: 1
       punctualLightShadowAtlas:
         shadowAtlasResolution: 4096
         shadowAtlasDepthBits: 32
@@ -126,7 +126,7 @@ MonoBehaviour:
       DLSSSharpness: 0.5
       maxPercentage: 100
       minPercentage: 100
-      dynResType: 0
+      dynResType: 1
       upsampleFilter: 1
       forceResolution: 0
       forcedPercentage: 100
@@ -264,7 +264,7 @@ MonoBehaviour:
     m_ObsoleteDecalLayerName5: 
     m_ObsoleteDecalLayerName6: 
     m_ObsoleteDecalLayerName7: 
-    m_ObsoleteSupportRuntimeDebugDisplay: 1
+    m_ObsoleteSupportRuntimeDebugDisplay: 0
   allowShaderVariantStripping: 1
   enableSRPBatcher: 1
   availableMaterialQualityLevels: -1
@@ -416,9 +416,9 @@ MonoBehaviour:
   m_ObsoleteDefaultLookDevProfile: {fileID: 0}
   m_ObsoleteFrameSettingsMovedToDefaultSettings:
     bitDatas:
-      data1: 140649432350557
-      data2: 4539628434053070872
-    lodBias: 1
+      data1: 0
+      data2: 0
+    lodBias: 0
     lodBiasMode: 0
     lodBiasQualityLevel: 0
     maximumLODLevel: 0
@@ -426,14 +426,14 @@ MonoBehaviour:
     maximumLODLevelQualityLevel: 0
     sssQualityMode: 0
     sssQualityLevel: 0
-    sssCustomSampleBudget: 20
+    sssCustomSampleBudget: 0
     msaaMode: 0
     materialQuality: 0
   m_ObsoleteBakedOrCustomReflectionFrameSettingsMovedToDefaultSettings:
     bitDatas:
-      data1: 135310787769117
-      data2: 4539628424389459992
-    lodBias: 1
+      data1: 0
+      data2: 0
+    lodBias: 0
     lodBiasMode: 0
     lodBiasQualityLevel: 0
     maximumLODLevel: 0
@@ -441,14 +441,14 @@ MonoBehaviour:
     maximumLODLevelQualityLevel: 0
     sssQualityMode: 0
     sssQualityLevel: 0
-    sssCustomSampleBudget: 20
+    sssCustomSampleBudget: 0
     msaaMode: 0
     materialQuality: 0
   m_ObsoleteRealtimeReflectionFrameSettingsMovedToDefaultSettings:
     bitDatas:
-      data1: 140060864290589
-      data2: 4539628424389459992
-    lodBias: 1
+      data1: 0
+      data2: 0
+    lodBias: 0
     lodBiasMode: 0
     lodBiasQualityLevel: 0
     maximumLODLevel: 0
@@ -456,7 +456,7 @@ MonoBehaviour:
     maximumLODLevelQualityLevel: 0
     sssQualityMode: 0
     sssQualityLevel: 0
-    sssCustomSampleBudget: 20
+    sssCustomSampleBudget: 0
     msaaMode: 0
     materialQuality: 0
   m_ObsoleteRenderPipelineResources: {fileID: 0}

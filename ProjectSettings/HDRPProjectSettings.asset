@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63a2978a97e4fc04cb9d905947216f3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ProjectSettingFolderPath: HDRPDefaultResources
+  m_ProjectSettingFolderPath: HDRP
   m_WizardPopupAtStart: 0
   m_LastMaterialVersion: 12
   m_HDShaderGraphLastSeenVersion: 0

@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 781cc897cf8675041a751163b51f97dd, type: 3}
   m_Name: HDRenderPipelineGlobalSettings
   m_EditorClassIdentifier: 
-  m_DefaultVolumeProfile: {fileID: 11400000, guid: 176eb66250c774f468a010d854803d78,
+  m_DefaultVolumeProfile: {fileID: 11400000, guid: 2abcdb69b3a8d6545a940a54e95d55dc,
     type: 2}
-  m_LookDevVolumeProfile: {fileID: 0}
+  m_LookDevVolumeProfile: {fileID: 11400000, guid: 615746440643c6c428f7b62cf88c72f2,
+    type: 2}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
-      data1: 140649432350557
-      data2: 4539628434053070872
+      data1: 72198260625768269
+      data2: 13763000477350330392
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0
@@ -32,8 +33,8 @@ MonoBehaviour:
     materialQuality: 0
   m_RenderingPathDefaultBakedOrCustomReflectionFrameSettings:
     bitDatas:
-      data1: 135310787769117
-      data2: 4539628424389459992
+      data1: 135310754214733
+      data2: 4539628428684460056
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0
@@ -47,8 +48,8 @@ MonoBehaviour:
     materialQuality: 0
   m_RenderingPathDefaultRealtimeReflectionFrameSettings:
     bitDatas:
-      data1: 140060864290589
-      data2: 4539628424389459992
+      data1: 139923391782733
+      data2: 13763000465807638544
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0
@@ -68,14 +69,14 @@ MonoBehaviour:
   afterPostProcessBlursCustomPostProcesses: []
   afterPostProcessCustomPostProcesses: []
   beforeTAACustomPostProcesses: []
-  lightLayerName0: 
-  lightLayerName1: 
-  lightLayerName2: 
-  lightLayerName3: 
-  lightLayerName4: 
-  lightLayerName5: 
-  lightLayerName6: 
-  lightLayerName7: 
+  lightLayerName0: Light Layer default
+  lightLayerName1: Light Layer 1
+  lightLayerName2: Light Layer 2
+  lightLayerName3: Light Layer 3
+  lightLayerName4: Light Layer 4
+  lightLayerName5: Light Layer 5
+  lightLayerName6: Light Layer 6
+  lightLayerName7: Light Layer 7
   decalLayerName0: Decal Layer default
   decalLayerName1: Decal Layer 1
   decalLayerName2: Decal Layer 2
@@ -87,13 +88,13 @@ MonoBehaviour:
   shaderVariantLogLevel: 0
   lensAttenuationMode: 0
   diffusionProfileSettingsList:
-  - {fileID: 11400000, guid: 9560f4c797f0d1f48ba08c13d7005a8e, type: 2}
-  - {fileID: 11400000, guid: c5ae704514ac32c4f8c7dfb027280903, type: 2}
+  - {fileID: 11400000, guid: 8db3a27373f4da74eafa4a7e63f8a6de, type: 2}
+  - {fileID: 11400000, guid: 8af9b06ef2d76f147866fe2af47c75c5, type: 2}
   rendererListCulling: 0
   DLSSProjectId: 000000
   useDLSSCustomProjectId: 0
   supportProbeVolumes: 0
-  supportRuntimeDebugDisplay: 1
+  supportRuntimeDebugDisplay: 0
   apvScenesData:
     serializedBounds: []
     serializedHasVolumes: []
