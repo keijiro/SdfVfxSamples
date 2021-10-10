@@ -10,12 +10,11 @@ Unity Visual Effect Graph.
 ![gif](https://i.imgur.com/iUGn7Fw.gif)
 ![gif](https://i.imgur.com/jPluUSJ.gif)
 
-
 System requirements
 -------------------
 
-- Unity 2019.3
-- High Definition Render Pipeline 7.1
+- Unity 2021.2
+- HDRP 12.0
 
 How to export a volume from Houdini
 -----------------------------------
@@ -25,8 +24,6 @@ and import it from the [VFXToolbox] repository.
 
 [VFXToolbox]:
   https://github.com/Unity-Technologies/VFXToolbox/tree/master/DCC-Tools%7E/Houdini
-
-<!--4567890123456789012345678901234567890123456789012345678901234567890123456-->
 
 You can export a `.vf` file using Volume Exporter SOP. There are a few things to
 take care of:
