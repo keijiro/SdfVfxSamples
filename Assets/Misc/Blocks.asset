@@ -13,31 +13,21 @@ MonoBehaviour:
   m_Name: ColorAdjustments
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
   postExposure:
     m_OverrideState: 1
     m_Value: 1.68
   contrast:
     m_OverrideState: 0
     m_Value: 0
-    min: -100
-    max: 100
   colorFilter:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
   hueShift:
     m_OverrideState: 0
     m_Value: 0
-    min: -180
-    max: 180
   saturation:
     m_OverrideState: 1
     m_Value: 12
-    min: -100
-    max: 100
 --- !u!114 &-1037354523192652364
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -51,38 +41,42 @@ MonoBehaviour:
   m_Name: ContactShadows
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
+  quality:
+    m_OverrideState: 0
+    m_Value: 1
   enable:
     m_OverrideState: 1
     m_Value: 1
   length:
     m_OverrideState: 0
     m_Value: 0.15
-    min: 0
-    max: 1
   opacity:
     m_OverrideState: 0
     m_Value: 1
-    min: 0
-    max: 1
   distanceScaleFactor:
     m_OverrideState: 1
     m_Value: 0.4
-    min: 0
-    max: 1
   maxDistance:
     m_OverrideState: 0
     m_Value: 50
-    min: 0
+  minDistance:
+    m_OverrideState: 0
+    m_Value: 0
   fadeDistance:
     m_OverrideState: 0
     m_Value: 5
-    min: 0
-  sampleCount:
+  fadeInDistance:
     m_OverrideState: 0
-    m_Value: 8
-    min: 4
-    max: 64
+    m_Value: 0
+  rayBias:
+    m_OverrideState: 0
+    m_Value: 0.2
+  thicknessScale:
+    m_OverrideState: 0
+    m_Value: 0.15
+  m_SampleCount:
+    m_OverrideState: 0
+    m_Value: 10
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,35 +106,30 @@ MonoBehaviour:
   m_Name: Tonemapping
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
   mode:
     m_OverrideState: 1
     m_Value: 2
   toeStrength:
     m_OverrideState: 0
     m_Value: 0
-    min: 0
-    max: 1
   toeLength:
     m_OverrideState: 0
     m_Value: 0.5
-    min: 0
-    max: 1
   shoulderStrength:
     m_OverrideState: 0
     m_Value: 0
-    min: 0
-    max: 1
   shoulderLength:
     m_OverrideState: 0
     m_Value: 0.5
-    min: 0
   shoulderAngle:
     m_OverrideState: 0
     m_Value: 0
-    min: 0
-    max: 1
   gamma:
     m_OverrideState: 0
     m_Value: 1
-    min: 0.001
+  lutTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  lutContribution:
+    m_OverrideState: 0
+    m_Value: 1
