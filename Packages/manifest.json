@@ -12,6 +12,7 @@
     "com.unity.render-pipelines.high-definition": "12.0.0",
     "com.unity.timeline": "1.6.2",
     "com.unity.modules.jsonserialize": "1.0.0",
-    "jp.keijiro.klak.motion": "1.0.2"
+    "jp.keijiro.klak.motion": "1.0.2",
+    "jp.keijiro.vfxgraphassets": "1.0.6"
   }
 }

@@ -105,6 +105,15 @@
       },
       "url": "https://registry.npmjs.com"
     },
+    "jp.keijiro.vfxgraphassets": {
+      "version": "1.0.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.shadergraph": "10.0.0"
+      },
+      "url": "https://registry.npmjs.com"
+    },
     "com.unity.modules.animation": {
       "version": "1.0.0",
       "depth": 1,
