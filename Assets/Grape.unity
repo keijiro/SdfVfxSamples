@@ -154,7 +154,7 @@ VFXRenderer:
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
-  m_MotionVectors: 0
+  m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
@@ -1076,11 +1076,11 @@ MonoBehaviour:
     y: 0
     z: 0
   rotationAmount:
-    x: 20
-    y: 15
-    z: 5
-  frequency: 0.04
-  octaves: 2
+    x: 30
+    y: 45
+    z: 30
+  frequency: 0.1
+  octaves: 1
   seed: 0
 --- !u!4 &2099517539
 Transform:
@@ -1089,7 +1089,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2099517537}
-  m_LocalRotation: {x: 0.08356669, y: -0.28293467, z: 0.024753585, w: 0.95517117}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1097,4 +1097,4 @@ Transform:
   - {fileID: 603253838}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 10, y: -33, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

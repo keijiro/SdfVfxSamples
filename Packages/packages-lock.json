@@ -106,7 +106,7 @@
       "url": "https://registry.npmjs.com"
     },
     "jp.keijiro.vfxgraphassets": {
-      "version": "1.0.6",
+      "version": "1.0.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
