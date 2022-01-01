@@ -582,7 +582,7 @@ VFXRenderer:
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
-  m_MotionVectors: 0
+  m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
@@ -651,6 +651,9 @@ VisualEffect:
       - m_Value: {fileID: 6775435000000457311, guid: b64266cb924885dab878172f91a98ecb,
           type: 3}
         m_Name: Distance Gradient
+        m_Overridden: 1
+      - m_Value: {fileID: 11700000, guid: 89a15d501516697479f9f7a5a5a34c69, type: 2}
+        m_Name: SDF
         m_Overridden: 1
     m_Bool:
       m_Array: []

@@ -252,6 +252,7 @@ MonoBehaviour:
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
+    m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
 --- !u!74 &2053852046123064921
@@ -274,23 +275,10 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 6775435000000457311, guid: a3c618d3fc60b4730aeb80b167767f6c,
-        type: 3}
+      value: {fileID: 11700000, guid: 89a15d501516697479f9f7a5a5a34c69, type: 2}
     - time: 10
-      value: {fileID: 6775435000000457311, guid: 394b02132570038508c91062bc2f1ced,
-        type: 3}
-    attribute: Object.Signed Distance Field
-    path: 
-    classID: 2083052967
-    script: {fileID: 0}
-  - curve:
-    - time: 0
-      value: {fileID: 6775435000000457311, guid: 776229e658c80b88bb8676b1857c7621,
-        type: 3}
-    - time: 10
-      value: {fileID: 6775435000000457311, guid: b64266cb924885dab878172f91a98ecb,
-        type: 3}
-    attribute: Object.Distance Gradient
+      value: {fileID: 11700000, guid: e92dfb541ce307a4e88e242f86969b03, type: 2}
+    attribute: Object.SDF
     path: 
     classID: 2083052967
     script: {fileID: 0}
@@ -303,23 +291,14 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 0
-      attribute: 3582277906
-      script: {fileID: 0}
-      typeID: 2083052967
-      customType: 38
-      isPPtrCurve: 1
-    - serializedVersion: 2
-      path: 0
-      attribute: 3672635645
+      attribute: 2584815455
       script: {fileID: 0}
       typeID: 2083052967
       customType: 38
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 6775435000000457311, guid: a3c618d3fc60b4730aeb80b167767f6c, type: 3}
-    - {fileID: 6775435000000457311, guid: 394b02132570038508c91062bc2f1ced, type: 3}
-    - {fileID: 6775435000000457311, guid: 776229e658c80b88bb8676b1857c7621, type: 3}
-    - {fileID: 6775435000000457311, guid: b64266cb924885dab878172f91a98ecb, type: 3}
+    - {fileID: 11700000, guid: 89a15d501516697479f9f7a5a5a34c69, type: 2}
+    - {fileID: 11700000, guid: e92dfb541ce307a4e88e242f86969b03, type: 2}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
