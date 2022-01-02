@@ -19,9 +19,9 @@ System requirements
 Frequently Asked Questions
 --------------------------
 
-**How can I get a SDF of my model?**
+### How can I get a SDF for my model?
 
-You can use the [SDF Bake Tool] to generate a SDF.
+You can use the [SDF Bake Tool] to generate a SDF file.
 
 [SDF Bake Tool]:
     https://docs.unity3d.com/Packages/com.unity.visualeffectgraph@13.1/manual/sdf-bake-tool.html
