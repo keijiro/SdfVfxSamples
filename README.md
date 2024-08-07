@@ -13,8 +13,7 @@ field) with Visual Effect Graph.
 System requirements
 -------------------
 
-- Unity 2021.2
-- HDRP 12.0
+- Unity 6
 
 Frequently Asked Questions
 --------------------------
