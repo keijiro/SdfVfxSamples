@@ -9,9 +9,9 @@
     }
   ],
   "dependencies": {
-    "com.unity.render-pipelines.high-definition": "12.1.2",
-    "com.unity.timeline": "1.6.3",
-    "jp.keijiro.klak.motion": "1.0.2",
-    "jp.keijiro.vfxgraphassets": "1.0.8"
+    "com.unity.render-pipelines.high-definition": "17.0.3",
+    "com.unity.timeline": "1.8.7",
+    "jp.keijiro.klak.motion": "1.1.0",
+    "jp.keijiro.vfxgraphassets": "2.1.1"
   }
 }
