@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Trails.unity
-    guid: 733be0e8b44e39f54835902433c4d816
+    path: Assets/Scenes/Stickies.unity
+    guid: 3d46c28308b7cb907b34bec9da2f831b
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
